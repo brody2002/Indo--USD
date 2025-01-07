@@ -5,13 +5,26 @@
 //  Created by Brody on 1/7/25.
 //
 
-import Testing
+import XCTest
 @testable import IndoCashConverter
 
-struct IndoCashConverterTests {
+final class IndoCashConverterTests: XCTestCase {
+    let moneyCalculate = MoneyCalculator()
+    
+    func testAmericanToIndoConversion(){
+        let usdInput = "32.00"
+        let expectedAnswer: Double = 516576.32
+        let indoOutput = moneyCalculate.americanToIndo(usdInput)
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+        XCTAssertEqual(expectedAnswer, indoOutput, accuracy: 0.01, "Conversion output does not match expected result.")
     }
-
+    
+    func testIndoToAmericanConverstion() {
+        let indoInput = "1000000.00"
+        let expectedAnswer: Double = 16143010000
+        let americanOutput = moneyCalculate.indoToAmerican(indoInput)
+        
+        XCTAssertEqual(expectedAnswer, americanOutput, accuracy: 0.01, "Converstion output does not match expected result")
+        
+    }
 }
