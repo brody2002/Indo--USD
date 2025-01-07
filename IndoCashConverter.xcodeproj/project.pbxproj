@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9666F57F2D2D2F2F006639A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9666F5662D2D2F2D006639A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9666F56D2D2D2F2D006639A6;
+			remoteInfo = IndoCashConverter;
+		};
+		9666F5892D2D2F2F006639A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9666F5662D2D2F2D006639A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9666F56D2D2D2F2D006639A6;
+			remoteInfo = IndoCashConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9666F56E2D2D2F2D006639A6 /* IndoCashConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoCashConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9666F57E2D2D2F2F006639A6 /* IndoCashConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoCashConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9666F5882D2D2F2F006639A6 /* IndoCashConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoCashConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9666F5702D2D2F2D006639A6 /* IndoCashConverter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IndoCashConverter;
+			sourceTree = "<group>";
+		};
+		9666F5812D2D2F2F006639A6 /* IndoCashConverterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IndoCashConverterTests;
+			sourceTree = "<group>";
+		};
+		9666F58B2D2D2F2F006639A6 /* IndoCashConverterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IndoCashConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9666F56B2D2D2F2D006639A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666F57B2D2D2F2F006639A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666F5852D2D2F2F006639A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9666F5652D2D2F2D006639A6 = {
+			isa = PBXGroup;
+			children = (
+				9666F5702D2D2F2D006639A6 /* IndoCashConverter */,
+				9666F5812D2D2F2F006639A6 /* IndoCashConverterTests */,
+				9666F58B2D2D2F2F006639A6 /* IndoCashConverterUITests */,
+				9666F56F2D2D2F2D006639A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9666F56F2D2D2F2D006639A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9666F56E2D2D2F2D006639A6 /* IndoCashConverter.app */,
+				9666F57E2D2D2F2F006639A6 /* IndoCashConverterTests.xctest */,
+				9666F5882D2D2F2F006639A6 /* IndoCashConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9666F56D2D2D2F2D006639A6 /* IndoCashConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9666F5922D2D2F2F006639A6 /* Build configuration list for PBXNativeTarget "IndoCashConverter" */;
+			buildPhases = (
+				9666F56A2D2D2F2D006639A6 /* Sources */,
+				9666F56B2D2D2F2D006639A6 /* Frameworks */,
+				9666F56C2D2D2F2D006639A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9666F5702D2D2F2D006639A6 /* IndoCashConverter */,
+			);
+			name = IndoCashConverter;
+			packageProductDependencies = (
+			);
+			productName = IndoCashConverter;
+			productReference = 9666F56E2D2D2F2D006639A6 /* IndoCashConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9666F57D2D2D2F2F006639A6 /* IndoCashConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9666F5952D2D2F2F006639A6 /* Build configuration list for PBXNativeTarget "IndoCashConverterTests" */;
+			buildPhases = (
+				9666F57A2D2D2F2F006639A6 /* Sources */,
+				9666F57B2D2D2F2F006639A6 /* Frameworks */,
+				9666F57C2D2D2F2F006639A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9666F5802D2D2F2F006639A6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9666F5812D2D2F2F006639A6 /* IndoCashConverterTests */,
+			);
+			name = IndoCashConverterTests;
+			packageProductDependencies = (
+			);
+			productName = IndoCashConverterTests;
+			productReference = 9666F57E2D2D2F2F006639A6 /* IndoCashConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9666F5872D2D2F2F006639A6 /* IndoCashConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9666F5982D2D2F2F006639A6 /* Build configuration list for PBXNativeTarget "IndoCashConverterUITests" */;
+			buildPhases = (
+				9666F5842D2D2F2F006639A6 /* Sources */,
+				9666F5852D2D2F2F006639A6 /* Frameworks */,
+				9666F5862D2D2F2F006639A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9666F58A2D2D2F2F006639A6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9666F58B2D2D2F2F006639A6 /* IndoCashConverterUITests */,
+			);
+			name = IndoCashConverterUITests;
+			packageProductDependencies = (
+			);
+			productName = IndoCashConverterUITests;
+			productReference = 9666F5882D2D2F2F006639A6 /* IndoCashConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9666F5662D2D2F2D006639A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9666F56D2D2D2F2D006639A6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9666F57D2D2D2F2F006639A6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9666F56D2D2D2F2D006639A6;
+					};
+					9666F5872D2D2F2F006639A6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9666F56D2D2D2F2D006639A6;
+					};
+				};
+			};
+			buildConfigurationList = 9666F5692D2D2F2D006639A6 /* Build configuration list for PBXProject "IndoCashConverter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9666F5652D2D2F2D006639A6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9666F56F2D2D2F2D006639A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9666F56D2D2D2F2D006639A6 /* IndoCashConverter */,
+				9666F57D2D2D2F2F006639A6 /* IndoCashConverterTests */,
+				9666F5872D2D2F2F006639A6 /* IndoCashConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9666F56C2D2D2F2D006639A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666F57C2D2D2F2F006639A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666F5862D2D2F2F006639A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9666F56A2D2D2F2D006639A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666F57A2D2D2F2F006639A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9666F5842D2D2F2F006639A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9666F5802D2D2F2F006639A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9666F56D2D2D2F2D006639A6 /* IndoCashConverter */;
+			targetProxy = 9666F57F2D2D2F2F006639A6 /* PBXContainerItemProxy */;
+		};
+		9666F58A2D2D2F2F006639A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9666F56D2D2D2F2D006639A6 /* IndoCashConverter */;
+			targetProxy = 9666F5892D2D2F2F006639A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9666F5902D2D2F2F006639A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9666F5912D2D2F2F006639A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9666F5932D2D2F2F006639A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IndoCashConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = L979M8V7RW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brody.IndoCashConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9666F5942D2D2F2F006639A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IndoCashConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = L979M8V7RW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brody.IndoCashConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9666F5962D2D2F2F006639A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979M8V7RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brody.IndoCashConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoCashConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IndoCashConverter";
+			};
+			name = Debug;
+		};
+		9666F5972D2D2F2F006639A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979M8V7RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brody.IndoCashConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoCashConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IndoCashConverter";
+			};
+			name = Release;
+		};
+		9666F5992D2D2F2F006639A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979M8V7RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brody.IndoCashConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndoCashConverter;
+			};
+			name = Debug;
+		};
+		9666F59A2D2D2F2F006639A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L979M8V7RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brody.IndoCashConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndoCashConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9666F5692D2D2F2D006639A6 /* Build configuration list for PBXProject "IndoCashConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666F5902D2D2F2F006639A6 /* Debug */,
+				9666F5912D2D2F2F006639A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9666F5922D2D2F2F006639A6 /* Build configuration list for PBXNativeTarget "IndoCashConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666F5932D2D2F2F006639A6 /* Debug */,
+				9666F5942D2D2F2F006639A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9666F5952D2D2F2F006639A6 /* Build configuration list for PBXNativeTarget "IndoCashConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666F5962D2D2F2F006639A6 /* Debug */,
+				9666F5972D2D2F2F006639A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9666F5982D2D2F2F006639A6 /* Build configuration list for PBXNativeTarget "IndoCashConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9666F5992D2D2F2F006639A6 /* Debug */,
+				9666F59A2D2D2F2F006639A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9666F5662D2D2F2D006639A6 /* Project object */;
+}
