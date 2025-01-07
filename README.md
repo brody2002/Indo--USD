@@ -1,0 +1,3 @@
+# American and Indonesian Cash Converter
+I got tired of constantly using google to look up the price of something so I made my own app...
+![Screen Recording Jan 7 2025](https://github.com/user-attachments/assets/a124e749-1d44-41cf-a026-e7926feb647b)
